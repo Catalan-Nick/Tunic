@@ -1,2 +1,2 @@
 # Tunic
-Bootstrap project webpage about the videogame Tunic
+Bootstrap project webpage about the video game Tunic

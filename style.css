@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Tunic';
+    src: url('Tunic.woff2') format('woff2'),
+        url('https://www.mediafire.com/file/o0vpwuzxm4ab6cu/Tunic_v0.2.otf/file') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Having so much trouble trying to get these fonts to work, the work okay for me on desktop but not on mobile. */
+@font-face {
+    font-family: "LinuxL";
+    src: url('https://www.mediafire.com/file/u9cpelrrznvtb0k/LinLibertine_R.otf/file') format("opentype");
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient( rgba(0,0,0,.85), rgba(0, 0, 0, 0.85)), url(https://i.imgur.com/7gRrS2Z.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: LinuxL;
+    font-weight: 600;
+}
+/* head */
+#logo{
+    width: 75px;
+}
+/*  tag-line */
+h1{
+    color: white;
+    text-shadow: 1px 1px 5px whitesmoke;
+    transition: opacity 3000ms;
+    text-align: center;
+}
+
+.tag-line{
+    position: relative;
+    margin: 70px 10px 0px 40px;
+    
+}
+.overlap{
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    margin: 0 5px;
+}
+
+
+.linuxL{
+    font-weight: 400;
+    
+}
+
+.tunic{
+    font-family: Tunic;
+}
+
+/* Carousel */
+.carousel-item > img {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+#carouselExampleCaptions{
+    border: 10px solid transparent;
+    border-image: url(https://i.imgur.com/buya7BT.png) 5% round;
+    border-image-repeat: stretch;
+    margin: 5% 15%;
+}
+
+.carousel-caption h5, p{
+    text-shadow: 1px 1px 4px rgb(88, 88, 88);
+}
+
+/* Cards */
+.card-img-top{
+    height: 200px;
+    width: auto;
+}
+
+.card{
+    height: 400px;
+    max-width: 320px;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 5px white;
+    transform: translateY(-5px);
+}
+
+.toggle{
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    
+}
+/* Modal */
+ .modal-content
+{
+    background-color: rgba(52, 52, 52, 0.85);
+}
+
+.btn-top:focus{
+    box-shadow: 0px 0px 5px green;
+}
+
+.btn-mid:focus{
+    box-shadow: 0px 0px 5px blue;
+}
+
+.btn-bottom:focus{
+    box-shadow: 0px 0px 5px red;
+}
+
+.btn-close {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+/* The close button of the modal */
+.topright {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+/* Footer */
+.platform-logo{
+    width: 15%;
+}
