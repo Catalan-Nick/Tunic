@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Tunic';
     src: url('Tunic.woff2') format('woff2'),
-        url('https://www.mediafire.com/file/o0vpwuzxm4ab6cu/Tunic_v0.2.otf/file') format('woff');
+        url('Tunic_v0.2.otf') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
