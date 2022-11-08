@@ -11,3 +11,6 @@ Using the games language text, on hover revels the text in english.
 - A Carosel with controls for scrolling over images.
 - Quote blocks
 - Button controlled sliding section of cards that can be clicked to open modules with a larger view of the cards image.
+
+### To Do:
+- Make the animation cycle on other devices.
