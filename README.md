@@ -8,7 +8,7 @@ https://catalan-tunic.netlify.app
 Using the games language text, on hover revels the text in english.
 
 ## Bootstrap Components
-- A Carosel with controls for scrolling over images.
+- A Carousel with controls for scrolling over images.
 - Quote blocks
 - Button controlled sliding section of cards that can be clicked to open modules with a larger view of the cards image.
 
